@@ -20,7 +20,7 @@ function getResults(userInput) {
       var results=data.query.search;
       console.log(results);
       $.each(results,function(key,value){
-         $('.wrapper').append("<div><h3><a target='_blank' href=''https://en.wikipedia.org/wiki/" + value.title +  "'>" + value.title + "</a></h3><p>" + value.snippet + "</p></div>");
+         $('.wrapper').append("<div><h3><a id='heading' target='_blank' href='https://en.wikipedia.org/wiki/" + value.title +  "'>" + value.title + "</a></h3><p id='content'>" + value.snippet + "</p></div>");
       });
     }
   });
