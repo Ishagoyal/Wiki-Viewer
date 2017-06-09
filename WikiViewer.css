@@ -28,13 +28,15 @@ h1{
 input{
   outline:none;
   box-sizing:content-box;
-  background: lightgrey url('http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png') no-repeat 9px center;
+  background: lightgrey url('http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png') no-repeat 9px;
+  background-position: right;
   color:transparent;
   padding:9px 10px 9px 10px;
-  width:15px;
+  width:100px;
   border: solid 1px #cccccc;
   border-radius:10em;
   cursor:pointer;
+  
 }
 input:focus{
   width:135px;
@@ -42,6 +44,7 @@ input:focus{
   color:black;
   padding-left:32px;
   box-shadow:0 0 5px;
+  background-image:none;
 }
 
 input:hover{
